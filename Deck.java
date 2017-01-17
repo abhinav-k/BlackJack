@@ -27,10 +27,10 @@ public class Deck {
     public void shuffle(){
         for(int i=0;i<52;++i)
         {
-           int j=randomCard();
+           //int j=randomCard();
            int k=randomCard();
-           int temp=cards[j];
-           cards[j]=cards[k];
+           int temp=cards[i];
+           cards[i]=cards[k];
            cards[k]=temp;
         }
     }
